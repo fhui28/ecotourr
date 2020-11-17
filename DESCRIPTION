@@ -1,11 +1,16 @@
 Package: ecotourr
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Visualising high dimensional ecological data
+Version: 1.0.1
+Authors@R: c(person("Gordana", "Popovic", email = "g.popovic@unsw.edu.au", role = c("aut", "cre")),
+            person("Francis K.C.", "Hui", role = "ctb"), person("Dianne", "Cook", role = "ctb"),
+	    person("David", "Warton", role = "ctb"))
+Description: Visualising high dimensional ecological data.
+Depends: R (>= 3.5.0)
+Imports: ecoCopula, tourr
+License: LGPL (>= 2.1)
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr, rmarkdown, testthat, tidyr, ggplot2, RColorBrewer
+VignetteBuilder: knitr
